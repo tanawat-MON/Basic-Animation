@@ -4,7 +4,7 @@ using UnityEngine;
 public class Chestinteraction : MonoBehaviour, IInteractable
 {
     Animator anim;
-    bool opened;
+    static bool opened;
 
     void Start()
     {
